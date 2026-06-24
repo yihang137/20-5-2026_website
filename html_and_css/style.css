@@ -1,0 +1,56 @@
+/* Whole website */
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Navigation bar */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 220px;
+    height: 100vh;
+
+    background-color: #263238;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* button */
+nav li {
+    border-bottom: 1px solid #37474f;
+}
+
+/* link */
+nav a {
+    display: block;
+
+    padding: 18px;
+
+    color: white;
+    text-decoration: none;
+}
+
+/* colour changing(when mouse on) */
+nav a:hover {
+    background-color: #37474f;
+}
+
+/* page */
+.active {
+    background-color: #81d4fa;
+    color: black;
+    font-weight: bold;
+}
+
+/* text */
+main {
+    margin-left: 240px;
+    padding: 30px;
+}
