@@ -1,7 +1,7 @@
 /* Whole website */
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 
 /* Navigation bar */
@@ -16,143 +16,95 @@ nav {
     background-color: #263238;
 }
 
+/* Navigation list */
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-/* button */
+/* Navigation buttons */
 nav li {
     border-bottom: 1px solid #37474f;
 }
 
-/* link */
+/* Navigation links */
 nav a {
     display: block;
-
     padding: 18px;
 
     color: white;
     text-decoration: none;
 }
 
-/* colour changing(when mouse on) */
+/* Mouse hover */
 nav a:hover {
     background-color: #37474f;
 }
 
-/* page */
+/* Current page */
 .active {
     background-color: #81d4fa;
     color: black;
     font-weight: bold;
 }
 
-/* text */
+/* Main content */
 main {
     margin-left: 240px;
     padding: 30px;
 }
 
-/* Homepage */
-
+/* Main title */
 h1 {
-
     color: #263238;
-
     font-size: 42px;
-
 }
 
+/* Section titles */
 h2 {
-
     color: #37474f;
-
     margin-top: 35px;
-
 }
 
+/* Paragraph */
 p {
-
     line-height: 1.6;
-
 }
 
+/* Learn More button */
 .learn-btn {
-
     background-color: #81d4fa;
-
     color: black;
 
     font-size: 18px;
-
     font-weight: bold;
 
     padding: 14px 30px;
-
     margin-top: 20px;
 
     border: none;
-
     border-radius: 10px;
 
     cursor: pointer;
-
     transition: 0.25s;
-
 }
 
+/* Button hover */
 .learn-btn:hover {
-
     background-color: #4fc3f7;
-
     transform: scale(1.05);
-
 }
 
+/* Lists */
 ul {
-
     line-height: 1.8;
-
 }
 
+/* Section line */
 hr {
-
     margin-top: 40px;
-
     margin-bottom: 40px;
 
     border: 1px solid #e0e0e0;
-
-}
-/* backround */
-body {
-
-    margin: 0;
-
-    font-family: Arial, sans-serif;
-
-    background-image: url("images/1.png");
-
-    background-size: cover;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-attachment: fixed;
-
-}
-
-main {
-
-    margin-left: 240px;
-
-    padding: 30px;
-
-    background-color: rgba(255, 255, 255, 0.85);
-
-    min-height: 100vh;
-
 }
