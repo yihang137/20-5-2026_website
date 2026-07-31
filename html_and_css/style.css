@@ -72,22 +72,12 @@ p {
     line-height: 1.6;
 }
 
-/* Learn More button */
-.learn-btn {
-    background-color: #81d4fa;
-    color: black;
+/* Background colour */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 
-    font-size: 18px;
-    font-weight: bold;
-
-    padding: 14px 30px;
-    margin-top: 20px;
-
-    border: none;
-    border-radius: 10px;
-
-    cursor: pointer;
-    transition: 0.25s;
+    background-color: #f4f8fb;
 }
 
 /* Button hover */
