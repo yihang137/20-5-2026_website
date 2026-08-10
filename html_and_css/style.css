@@ -1,7 +1,8 @@
-/* Whole website */
+ /* Whole website */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
 }
 
 /* Navigation bar */
@@ -9,10 +10,8 @@ nav {
     position: fixed;
     left: 0;
     top: 0;
-
     width: 220px;
     height: 100vh;
-
     background-color: #263238;
 }
 
@@ -32,7 +31,6 @@ nav li {
 nav a {
     display: block;
     padding: 18px;
-
     color: white;
     text-decoration: none;
 }
@@ -43,7 +41,7 @@ nav a:hover {
 }
 
 /* Current page */
-.active {
+nav a.active {
     background-color: #81d4fa;
     color: black;
     font-weight: bold;
@@ -72,12 +70,17 @@ p {
     line-height: 1.6;
 }
 
-/* Background colour */ 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-
-    background-color: #f4f8fb;
+/* Button */
+.learn-btn {
+    background-color: #81d4fa;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /* Button hover */
@@ -86,15 +89,9 @@ body {
     transform: scale(1.05);
 }
 
-/* Lists */
-ul {
-    line-height: 1.8;
-}
-
-/* Section line */
+/* Lines */
 hr {
     margin-top: 40px;
     margin-bottom: 40px;
-
     border: 1px solid #e0e0e0;
 }
