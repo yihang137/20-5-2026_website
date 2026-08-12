@@ -5,48 +5,6 @@ body {
     background-color: #f4f8fb;
 }
 
-/* Navigation bar */
-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 220px;
-    height: 100vh;
-    background-color: #263238;
-}
-
-/* Navigation list */
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Navigation buttons */
-nav li {
-    border-bottom: 1px solid #37474f;
-}
-
-/* Navigation links */
-nav a {
-    display: block;
-    padding: 18px;
-    color: white;
-    text-decoration: none;
-}
-
-/* Mouse hover */
-nav a:hover {
-    background-color: #37474f;
-}
-
-/* Current page */
-nav a.active {
-    background-color: #81d4fa;
-    color: black;
-    font-weight: bold;
-}
-
 /* Main content */
 main {
     margin-left: 240px;
@@ -94,4 +52,49 @@ hr {
     margin-top: 40px;
     margin-bottom: 40px;
     border: 1px solid #e0e0e0;
+}
+
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+
+/* Navigation bar */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #263238;
+}
+
+/* Navigation list */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation buttons */
+nav li {
+    border-bottom: 1px solid #37474f;
+}
+
+/* Navigation links */
+nav a {
+    display: block;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Mouse hover */
+nav a:hover {
+    background-color: #37474f;
+}
+
+/* Current page */
+nav a.active {
+    background-color: #81d4fa;
+    color: black;
+    font-weight: bold;
 }
