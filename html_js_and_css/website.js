@@ -1,3 +1,4 @@
+/* Question 1 */    
 function checkAnswer(question, answer) {
 
     if (question === 1) {
